@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 
-import Bio from "../components/bio";
 import Layout from "../components/layout";
 import Image from "../components/image";
 
@@ -18,9 +17,31 @@ class BlogIndex extends React.Component {
       <>
         <Layout location={this.props.location} title={siteTitle}>
           <div>
+            <ul
+              style={{
+                display: `flex`,
+                flexWrap: `wrap`,
+                justifyContent: `space-between`,
+                listStyle: `none`,
+                padding: 0
+              }}
+            >
+              <li>{<Link to="/" rel="prev" />}</li>
+              <li>
+                {
+                  <Link
+                    to="/PUNKY%20DUNK%20AND%20THE%20GOLD%20FISH/"
+                    rel="next"
+                  >
+                    2 →
+                  </Link>
+                }
+              </li>
+            </ul>
+
             <div
               style={{
-                maxWidth: `333px`,
+                maxWidth: `900px`,
                 padding: `0px`,
                 marginBottom: `0.33rem`
               }}

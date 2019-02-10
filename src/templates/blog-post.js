@@ -24,12 +24,6 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1)
           }}
         />
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1)
-          }}
-        />
 
         <ul
           style={{
@@ -55,6 +49,12 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <hr
+          style={{
+            marginBottom: rhythm(1)
+          }}
+        />
       </Layout>
     );
   }
