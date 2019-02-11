@@ -15,11 +15,10 @@ class NotFoundPage extends React.Component {
           title="Project Gutenberg's Punky Dunk and the Gold Fish, by
         Anonymous"
         />
-        <h1>About Punky Dunk and the Gold Fish</h1>
+        <h1>The Tale of Tom Kitten</h1>
         <div>
           <p>
-            End of Project Gutenberg's Punky Dunk and the Gold Fish, by
-            Anonymous.
+            End of Project Gutenberg's The Tale of Tom Kitten by Beatrix Potter.
           </p>
 
           <h1>About this OlaBook</h1>
@@ -34,9 +33,9 @@ class NotFoundPage extends React.Component {
               <li>A Norwegian translation.</li>
               <li>
                 Go to{" "}
-                <a href="https://github.com/olavea/PUNKY-DUNK-AND-THE-GOLD-FISH-2">
+                <a href="https://github.com/olavea/THE_TALE_OF_TOM_KITTEN_1">
                   {" "}
-                  https://github.com/olavea/PUNKY-DUNK-AND-THE-GOLD-FISH-2
+                  https://github.com/olavea/THE_TALE_OF_TOM_KITTEN_1
                 </a>
               </li>
             </ul>
@@ -58,14 +57,14 @@ class NotFoundPage extends React.Component {
 
         <p>
           This and all associated files of various formats will be found in:
-          <a href="http://www.gutenberg.org/files/19537/">
+          <a href="http://www.gutenberg.org/ebooks/14837">
             {" "}
-            http://www.gutenberg.org/files/19537/
+            http://www.gutenberg.org/ebooks/14837
           </a>
         </p>
         <p>
-          Produced by David Newman, Janet Blenkinship and the Online Distributed
-          Proofreading Team at{" "}
+          Produced by Robert Cicconetti, Melissa Er-Raqabi and the PG Online
+          Distributed Proofreading Team at{" "}
           <a href="http://www.pgdp.net"> http://www.pgdp.net</a> .
         </p>
         <p>

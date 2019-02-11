@@ -22,5 +22,5 @@ Rodeløkka, Oslo, Norway, Earth
 ALL RIGHTS RESERVED
 FOR THE KIDS
 
-Read about COPYRIGHTS on [the About page](https://lucid-mestorf-57e000.netlify.com/about) of this book. Or go back to [the Front page](https://lucid-mestorf-57e000.netlify.com/) and read the book again. Or look at some of our other books at ...
+Read about COPYRIGHTS on [the About page](https://youthful-ardinghelli-5eaac6.netlify.com/about) of this book. Or go back to [the Front page](https://youthful-ardinghelli-5eaac6.netlify.com/) and read the book again. Or look at some of our other books at ...
 
