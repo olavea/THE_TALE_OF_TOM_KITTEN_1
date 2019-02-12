@@ -5,6 +5,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { rhythm, scale } from "../utils/typography";
+import logo from "./uniparrot4.png";
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -44,7 +45,13 @@ class BlogPostTemplate extends React.Component {
           <li>
             {next && (
               <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
+                <img
+                  style={{
+                    width: "133px"
+                  }}
+                  src={logo}
+                  alt="Geff Logo"
+                />
               </Link>
             )}
           </li>
