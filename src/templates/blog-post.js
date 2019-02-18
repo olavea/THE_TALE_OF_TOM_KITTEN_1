@@ -47,7 +47,7 @@ class BlogPostTemplate extends React.Component {
               <Link to={next.fields.slug} rel="next">
                 <img
                   style={{
-                    width: "133px"
+                    width: "333px"
                   }}
                   src={logo}
                   alt="Geff Logo"
